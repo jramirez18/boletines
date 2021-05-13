@@ -1,0 +1,7 @@
+Los archivos se meten dentro la carpeta DOCS porque gitHub Pages solo asi los reconoce.
+Pero si no los subirmos a Pages no se usa la carpeta docs.
+
+Assets, hace referencia a los recursos o elemento que vamos a utilizar para el desarrollo del proyecto.
+
+
+
