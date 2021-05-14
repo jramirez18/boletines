@@ -65,12 +65,22 @@ a{
     font-weight: 200;
 }
 
-.red{
-    height: 200px;
-    width: 100px;
-    background-color: yellow;
+.fa-star,.fa-star-o{
+    color:#ffc400 ;
 }
 
-#boton-pago{
-    background-color: yellow;
-}
+ .table{
+   /*Abarque todo el ancho disponible*/
+   width: 100%; 
+   /*Quitar espacio entre los bordes de las columnas*/
+   border-spacing: 0; 
+ }
+
+ .table td, .table th{
+     /*Mas espacio con padding*/
+     padding: 1em;
+     text-align: left;
+
+ }
+
+ .table tr:nth-child(even){background-color: rgb(203, 206, 241);}
