@@ -16,6 +16,13 @@ html{
     font-family: 'Arvo', serif;
 }
 
+a{
+    /*Quitar la linea de bajo que aparece en los links*/
+    text-decoration: none;
+    /*Cambiar color de los links*/
+    color: #5272bd;
+}
+
 .container{
     /*FONDO DEGRADADO*/
     background: #373B44;  /* fallback for old browsers, RESPALDO PARA NAVEGADORES ANTIGUOS*/
@@ -43,6 +50,19 @@ html{
     /*Color de fondo*/
     background-color: white;
 
+}
+
+.title{
+    /*MODIFICADOR DE TEXTO*/
+    text-transform: uppercase;
+}
+
+.paragraph{
+    /*MODIFICADORES DE TEXTO*/
+    /*para el interlineado entre parrafos*/
+    line-height: 1.8em ;
+    /*Cambiar grosor de fuente a delgada*/
+    font-weight: 200;
 }
 
 .red{
