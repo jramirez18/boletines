@@ -47,15 +47,18 @@ a{
     /*Que abarque todo lo disponible en el ANCHO Y ALTO*/
     width: 100%;
     height: 100%;
-    /*Color de fondo*/
+    /*Color de fondo*/ 
     background-color: white;
+
+    /*Agregar Sombra al contenedor*/
+    box-shadow: 0 3px 6px rgb(0,0,0,0.16),  0 3px 6px rgb(0,0,0,0.23);
 
 }
 
 .title{
     /*MODIFICADOR DE TEXTO*/
     text-transform: uppercase;
-}
+} 
 
 .paragraph{
     /*MODIFICADORES DE TEXTO*/
@@ -84,3 +87,15 @@ a{
  }
 
  .table tr:nth-child(even){background-color: rgb(203, 206, 241);}
+
+/*Bordes y Sombras*/
+ .title-item{
+     /*border-style crea los 4 borders*/
+     border-bottom-style: solid;
+     /*reduce el grosor del borde*/
+     border-width: 2px;
+     border-color: mediumblue ;
+
+     /*dejar espacio entre el nombre y el border*/
+     padding-bottom: 1em;
+ }
