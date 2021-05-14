@@ -56,6 +56,30 @@ a{
     /* cambiar las esquinas */
     border-radius: 4px;
 
+    position: relative;/*Ya es un elemento posicionado*/
+
+}
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color:mediumblue ;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgb(0,0,0,0.16),  0 3px 6px rgb(0,0,0,0.23);
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title{
