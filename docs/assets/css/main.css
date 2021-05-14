@@ -53,6 +53,9 @@ a{
     /*Agregar Sombra al contenedor*/
     box-shadow: 0 3px 6px rgb(0,0,0,0.16),  0 3px 6px rgb(0,0,0,0.23);
 
+    /* cambiar las esquinas */
+    border-radius: 4px;
+
 }
 
 .title{
@@ -90,12 +93,24 @@ a{
 
 /*Bordes y Sombras*/
  .title-item{
-     /*border-style crea los 4 borders*/
+     /* border-style crea los 4 borders
      border-bottom-style: solid;
-     /*reduce el grosor del borde*/
+     /*reduce el grosor del borde
      border-width: 2px;
-     border-color: mediumblue ;
+     border-color: mediumblue ; */
+
+     /* Otra forma de definir un borde de manera mas corta SHORTHAND PROPIERTIES */
+     border-bottom: solid 2px mediumblue;
 
      /*dejar espacio entre el nombre y el border*/
      padding-bottom: 1em;
+ }
+
+ .position{
+     background-color: mediumblue;
+     color: white;
+
+     padding: 10px; /*1em 2em 3em 4em; Funciona como las manesillas del reloj*/
+
+     border-radius: 4px;
  }
