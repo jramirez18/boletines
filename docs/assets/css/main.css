@@ -64,6 +64,9 @@ a:hover{
 
     position: relative;/*Ya es un elemento posicionado*/
 
+    /* ESPACIO DE LOS BORDERS */
+    padding: 1.8em;
+
 }
 
 .actions{
@@ -91,6 +94,8 @@ a:hover{
 .title{
     /*MODIFICADOR DE TEXTO*/
     text-transform: uppercase;
+
+    text-align: center;
 } 
 
 .paragraph{
@@ -129,6 +134,8 @@ a:hover{
      border-width: 2px;
      border-color: mediumblue ; */
 
+     font-size: 2em;
+    
      /* Otra forma de definir un borde de manera mas corta SHORTHAND PROPIERTIES */
      border-bottom: solid 2px mediumblue;
 
@@ -143,6 +150,15 @@ a:hover{
      padding: 10px; /*1em 2em 3em 4em; Funciona como las manesillas del reloj*/
 
      border-radius: 4px;
+
+     margin-right: 0.5em;
  }
 
+
+ .main-image{
+     float: left;
+     margin-right: 1em;
+     height: 200px;
+
+ }
  
