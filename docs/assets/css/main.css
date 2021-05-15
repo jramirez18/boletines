@@ -23,6 +23,12 @@ a{
     color: #5272bd;
 }
 
+/* PSEUDO CLASES */
+a:hover{
+    /* RECIBE VALORES DEL 0 AL 1 */ 
+    opacity: 0.8; 
+}
+
 .container{
     /*FONDO DEGRADADO*/
     background: #373B44;  /* fallback for old browsers, RESPALDO PARA NAVEGADORES ANTIGUOS*/
